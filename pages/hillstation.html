@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Hill Stations of India</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f8ff;
+        }
+
+        header {
+            background-color: #1a2e42;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 40px;
+        }
+
+        .place-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .place-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .place-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .place-title {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+
+        footer {
+            background-color: #1a2e42;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        body h2{
+            text-align: center;
+            font-size: 35px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            color: #1a2e42;
+            background-color: #acc3d7;
+
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Explore Hill Stations</h1>
+        <p>Unwind amidst serene mountains, lush greenery, and the fresh breeze of India’s finest hill retreats.</p>
+    </header>
+    <h2>
+        Top 8 Hill-Stations of India 
+    </h2>
+    <div class="grid-container">
+        <a class="place-card" href="/pages/kashmir.html">
+            <img src="/images/kashmir.jpg" alt="Kashmir">
+            <div class="place-title">Jammu & Kashmir</div>
+        </a>
+        <a class="place-card" href="/pages/manali.html">
+            <img src="/images/manali.jpg" alt="Manali">
+            <div class="place-title">Manali</div>
+        </a>
+        <a class="place-card" href="/pages/darjeeling.html">
+            <img src="/images/darjeeling.jpg" alt="Darjeeling">
+            <div class="place-title">Darjeeling</div>
+        </a>
+        <a class="place-card" href="/pages/ooty.html">
+            <img src="/images/ooty.jpg" alt="Ooty">
+            <div class="place-title">Ooty</div>
+        </a>
+        <a class="place-card" href="/pages/nainital.html">
+            <img src="/images/nainital.jpg" alt="Nainital">
+            <div class="place-title">Nainital</div>
+        </a>
+        <a class="place-card" href="/pages/shimla.html">
+            <img src="/images/shimla.jpg" alt="Shimla">
+            <div class="place-title">Shimla</div>
+        </a>
+        <a class="place-card" href="/pages/auli.html">
+            <img src="/images/auli.jpg" alt="auli">
+            <div class="place-title">Auli</div>
+        </a>
+        <a class="place-card" href="/pages/coorg.html">
+            <img src="/images/coorg.jpg" alt="Coorg">
+            <div class="place-title">Coorg</div>
+        </a>
+    </div>
+
+    <footer>
+        &copy; 2025 Explore Hill Stations
+    </footer>
+
+</body>
+</html>

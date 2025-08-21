@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beach Destinations</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f8ff;
+        }
+
+        header {
+            background-color: #1a2e42;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 40px;
+        }
+
+        .place-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .place-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .place-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .place-title {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+
+        footer {
+            background-color: #1a2e42;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        body h2{
+            text-align: center;
+            font-size: 35px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            color: #1a2e42;
+            background-color: #acc3d7;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Explore Beach Destinations</h1>
+        <p>Feel the ocean breeze, soak in the sun, and unwind at India's most stunning coastal getaways
+        </p>
+    </header>
+    <h2>
+    Top 8 Beach Destinations of India 
+    </h2>
+    <div class="grid-container">
+        <a class="place-card" href="/pages/goa.html">
+            <img src="/images/goa.jpg" alt="goa">
+            <div class="place-title">Goa </div>
+        </a>
+        <a class="place-card" href="/pages/gokarna.html">
+            <img src="/images/gokarna.jpg" alt="gokarna">
+            <div class="place-title">Gokarna</div>
+        </a>
+           <a class="place-card" href="/pages/varkala.html">
+            <img src="/images/varkala.jpg" alt="varkala">
+            <div class="place-title">Varkala</div>
+        </a>
+           <a class="place-card" href="/pages/andaman.html">
+            <img src="/images/andaman.jpg" alt="andaman">
+            <div class="place-title">Andaman & Nicobar</div>
+        </a>
+           <a class="place-card" href="/pages/puri.html">
+            <img src="/images/puri.jpg" alt="puri">
+            <div class="place-title">Puri</div>
+        </a>
+           <a class="place-card" href="/pages/marina.html">
+            <img src="/images/marina.jpg" alt="marina">
+            <div class="place-title">Marina Beach</div>
+        </a>
+           <a class="place-card" href="/pages/kovalam.html">
+            <img src="/images/kovalam.jpg" alt="kovalam">
+            <div class="place-title">Kovalam</div>
+        </a>
+           <a class="place-card" href="/pages/daman.html">
+            <img src="/images/daman.jpg" alt="daman">
+            <div class="place-title">Daman and Diu</div>
+        </a>
+    </div>
+    <footer>
+    Dive into the rhythm of waves and coastal charm across India’s beautiful beaches. &copy; 2025 Explore Beach Destinations
+    </footer>
+</body>
+
+</html>

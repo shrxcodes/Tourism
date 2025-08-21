@@ -1,0 +1,106 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body,
+        html {
+            height: 100%;
+        }
+
+        header {
+            background-color: #c76f2278;
+            padding: 5px 36px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo img {
+            height: 52px;
+            width: auto;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        li {
+            font-size: 22px;
+            font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            cursor: pointer;
+            color: black;
+
+        }
+
+        .background {
+            width: 100vw;
+            height: 88vh;
+            object-fit: cover;
+            display: block;
+        }
+
+        body h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 30px;
+            text-align: center;
+            padding: 40px;
+
+        }
+
+        body h2 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            justify-content: center;
+            padding: 48px;
+            background-color: #c5f2f2;
+        }
+
+        /* .destination img {
+            width: 250px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 12px 12px 2px 1px rgba(11, 11, 12, 0.2);
+            cursor: pointer;
+        } */
+        .destination img {
+            width: 350px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 12px 12px 2px 1px rgba(11, 11, 12, 0.2);
+            cursor: pointer;
+        }
+
+        .destination img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 16px 16px 10px rgba(0, 0, 0, 0.25);
+        }
+
+
+        .destination h3 {
+            padding: 20px;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+        }
