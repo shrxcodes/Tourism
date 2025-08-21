@@ -4,6 +4,7 @@ Tourism Explorer Website
 Tourism Explorer is an interactive website designed to help users explore different types of tourism destinations in India based on their interests. Users can select a category of tourism—such as cultural & heritage sites, hill stations, beaches, spiritual destinations, and more. Upon selecting a category, the site displays the top destinations in that category.
 
 For each destination, users can click to view detailed information, including:
+
 1)A brief overview of the destination
 
 2)Top tourist attractions to visit
